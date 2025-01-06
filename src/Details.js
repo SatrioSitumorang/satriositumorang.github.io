@@ -28,67 +28,76 @@ import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Satrio Holmes Afrido Situmorang",
+  tagline: "Software Engineer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am a fresh graduate from Del Institute of Technology with a degree in Software Engineering Technology, driven by a passion for Software Development,Data Analyst, and UI/UX Designer. With over a year of hands-on experience, I am committed to continuously learning and exploring new aspects of development, big data, and design. I thrive on tackling new challenges and seeking opportunities to grow as both a developer and designer. Eager to connect with like minded professionals, I am enthusiastic about collaborating and contributing to innovative solutions in the tech industry.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/satriositumorang/",
+  github: "https://www.github.com/SatrioSitumorang",
+  instagram: "https://www.instagram.com/satrio_situmorang",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Fasilitator Data",
+    Company: `Kementerian Ekonomi dan Kreatif Indonesia`,
+    Location: "Indonesia",
+    Type: "Project",
+    Duration: "Nov 2021 - Dec 2021",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Fasilitator Data",
+    Company: `UMKM Kabupaten Toba Samosir`,
+    Location: "Toba Samosir, Sumatera Utara",
+    Type: "Project",
+    Duration: "Dec 2021",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "UI/UX Designer",
+    Company: `NiagaHoster`,
+    Location: "Yogyakarta",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Jun 2022 - Jul 2022",
+  },
+  {
+    Position: "Fasilitator Data",
+    Company: `Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan`,
+    Location: "Indonesia",
+    Type: "Project",
+    Duration: "Sep 2022 - Nov 2022",
+  },
+  {
+    Position: "Web Developer and Mobile Developer",
+    Company: `Matching Fund Bank Sampah BerSinar`,
+    Location: "Indonesia",
+    Type: "Internship",
+    Duration: "Aug 2023 - Jan 2024",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Position: "Software Engineering",
+    Company: "Del Institute of Technology",
+    Location: "Sitoluama, Laguboti, Toba Samosir, North Sumatera, Indonesia",
+    Type: "Graduate",
+    Duration: "Sep 2020 - Aug 2024",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Junior Java Mobile Programmer",
+    Company: `Digitalent`,
+    Location: "Online",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "May 2024",
   },
 ];
 
@@ -104,7 +113,6 @@ export const techStackDetails = {
   bootstrap: bootstrap,
   vscode: vscode,
   postman: postman,
-  npm: npm,
   git: git,
   github: github,
   figma: figma,
@@ -113,63 +121,25 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Sistem Informasi Fakultas Vokasi",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Fakultas Vokasi Information System is a web-based application that aims to digitize the Work Plan Form and Self Evaluation Form. In addition, it also contains information about the Faculty, Faculty Activities and Faculty Achievements. The information provided in this Information System is for one of the solutions in attracting new prospective students to join the Faculty of Vocational Studies.
+Translated with DeepL.com (free version)`,
+    techstack: "HTML/CSS, JavaScript, PHP",
+    githubLink: "https://github.com/SatrioSitumorang/PA2.git",
   },
   {
-    title: "Project title 2",
+    title: "Sistem Informasi Pengelolaan Sampah Rumah Tangga (BerSinar-App)",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `BerSinar-App is a multiplatform application (Web and Mobile) built for the digitization of household waste management. This application aims to provide convenience in the process of selling/purchasing/transacting recyclable waste. `,
+    techstack: "HTML/CSS, JavaScript Ajax, PHP Laravel, Flutter, Golang ",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/SatrioSitumorang/Bersinar-App.git",
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "satriositumorang99@gmail.com",
+  phone: "+62 853 6197 4019",
 };
